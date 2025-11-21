@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_BASE || 'https://internshipfinder-g0it.onrender.com';
+const API_BASE = import.meta.env.VITE_API_BASE || 'https://internshipfinder-g0it.onrender.com/api';
 
 async function request(path, options = {}) {
   const res = await fetch(`${API_BASE}${path}`, options);
