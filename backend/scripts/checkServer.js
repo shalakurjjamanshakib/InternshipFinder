@@ -1,7 +1,7 @@
 
 (async () => {
   try {
-    const base = process.env.API_BASE || 'http://localhost:5000/api';
+    const base = process.env.API_BASE || 'https://internshipfinder-frontend.onrender.com/';
     console.log('Checking', base);
 
     const r = await fetch(`${base}/internships`);
